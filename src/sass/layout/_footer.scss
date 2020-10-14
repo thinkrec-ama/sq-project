@@ -1,0 +1,16 @@
+@import "./foundation/common";
+
+.footerWrap {
+  background-color: $extended-colors-stone02;
+}
+.footerInner {
+  width: 1080px;
+  margin: 0 auto;
+}
+.copyright {
+  font-size: $base-font-size-minimal;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
