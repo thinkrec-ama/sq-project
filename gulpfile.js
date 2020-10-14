@@ -11,19 +11,19 @@ const browserSync = require('browser-sync').create();
 
 //setting : paths
 const paths = {
-    root: './dist/',
+    root: './dest/',
     ejs: {
         src: ['./src/ejs/**/*.ejs', '!' + './src/ejs/**/_*.ejs'],
         watch: './src/ejs/**/*.ejs',
-        dist: './dist/'
+        dist: './dest/'
     },
     styles: {
         src: './src/sass/**/*.scss',
-        dist: './dist/css/'
+        dist: './dest/css/'
     },
     scripts: {
         src: './src/js/**/*.js',
-        dist: "./dist/js/"
+        dist: "./dest/js/"
     }
 };
 
