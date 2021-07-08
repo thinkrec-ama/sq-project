@@ -1,0 +1,10 @@
+@import "./foundation/common";
+
+.headerWrap {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 85px;
+  padding: 10px;
+  box-sizing: border-box;
+}
